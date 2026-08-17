@@ -2,6 +2,12 @@
 
 CampusShield AI is a full-stack cybersecurity incident reporting and triage platform for college communities. Students can submit suspicious messages or account concerns, receive immediate safety guidance, and follow the investigation. Authorized analysts can prioritize reports, manage incident status, review threat trends, and inspect an immutable-style activity trail.
 
+## Live demo
+
+**[Open the interactive CampusShield AI demo](https://amos-isaya.github.io/CampusShield-AI/)**
+
+The public GitHub Pages version uses a clearly isolated browser demo data layer because GitHub Pages cannot execute the Python server. It supports both roles, report submission, triage, incident management, analytics, and audit activity. The repository's Python application is the full backend implementation with hashed authentication, SQLite persistence, authorization, and server-side validation.
+
 ## Why this project is different
 
 This is a working application rather than a static interface. It includes a browser client, authenticated API, relational database, risk-analysis engine, role-based workflows, analytics, and security controls while remaining dependency-free.
